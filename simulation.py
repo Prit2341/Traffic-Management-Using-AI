@@ -60,7 +60,7 @@ detectionTime = 5
 speeds = {'car':2.25, 'bus':1.8, 'truck':1.8, 'rickshaw':2, 'bike':2.5}  # average speeds of vehicles
 
 # Coordinates of start
-x = {'right':[0,0,0], 'down':[271,254,239], 'left':[1400,1400,1400], 'up':[201,211,227]}    
+x = {'right':[0,0,0], 'down':[271,254,240], 'left':[1400,1400,1400], 'up':[201,211,227]}    
 y = {'right':[223,232,250], 'down':[0,0,0], 'left':[300,285,268], 'up':[800,800,800]}
 
 vehicles = {'right': {0:[], 1:[], 2:[], 'crossed':0}, 'down': {0:[], 1:[], 2:[], 'crossed':0}, 'left': {0:[], 1:[], 2:[], 'crossed':0}, 'up': {0:[], 1:[], 2:[], 'crossed':0}}
