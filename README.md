@@ -81,6 +81,11 @@ for the Graph only
 pip install matplotlib
 ```
 
+Run the Python File
+```
+python simulation.py
+```
+
 For the Using NEAT Download the config.txt file from the Below Link</br>
 Link :- https://techwithtim.net/wp-content/uploads/2019/08/config-feedforward.txt</br>
 Save the Above file as config.txt 
