@@ -54,21 +54,6 @@ Step 5 :- Updating traffic Signal Time</br>
 * Average speed each catagory of Vehicles
 * The No. of Lanes
 
-## Results
-Here we Compare the Total Number of the Vehicles that crosses the intersection over 1 Simulation(5 Min) in the current system and Our implemented System With The random number of the Vehicles, Over A Total Time of 1 Hour With 12 Simulations of 5 Min each.  
-
-![Comparison](https://user-images.githubusercontent.com/83399207/166123300-80854b3e-3da2-446d-87a5-b07aa1595325.png)
-
-## Graph Represtation
-<p>As we can see with all conditions alike, our dynamic system was able to pass 3193 Vehicles while the current static system could pass only 2356 in 1 hour which means 837 more vehicles
-
- Thus our proposed Traffic managment system with AI improves the performance bt over 35%
- 
- our proposed system on and average allow 70 more vehicles to pass every one simulation(5 min) aas compared to the current system this implies a reduction in time complexity of green signal time(Signal is green but no vehiclea passes) as well as the waiting time of the vehicles
-</p>
-
-![graph](https://user-images.githubusercontent.com/83399207/166123319-a8e4a219-3ec0-4d55-9fd1-607147ea2d7e.png)
-
 ## Installastion
 
 All user Installastion
@@ -101,8 +86,19 @@ being saved in each of the lane and in each cycle. </p>
 
 https://user-images.githubusercontent.com/83399207/166122642-451f48f1-028a-4911-adb0-2c7ab9ae892d.mp4
 
-## 
+## Results
+Here we Compare the Total Number of the Vehicles that crosses the intersection over 1 Simulation(5 Min) in the current system and Our implemented System With The random number of the Vehicles, Over A Total Time of 1 Hour With 12 Simulations of 5 Min each.  
 
+![Comparison](https://user-images.githubusercontent.com/83399207/166123300-80854b3e-3da2-446d-87a5-b07aa1595325.png)
 
+## Graph Represtation
+<p>As we can see with all conditions alike, our dynamic system was able to pass 3193 Vehicles while the current static system could pass only 2356 in 1 hour which means 837 more vehicles
+
+ Thus our proposed Traffic managment system with AI improves the performance bt over 35%
+ 
+ our proposed system on and average allow 70 more vehicles to pass every one simulation(5 min) aas compared to the current system this implies a reduction in time complexity of green signal time(Signal is green but no vehiclea passes) as well as the waiting time of the vehicles
+</p>
+
+![graph](https://user-images.githubusercontent.com/83399207/166123319-a8e4a219-3ec0-4d55-9fd1-607147ea2d7e.png)
 
 
