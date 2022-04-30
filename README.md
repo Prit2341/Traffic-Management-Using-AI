@@ -94,7 +94,7 @@ Here we Compare the Total Number of the Vehicles that crosses the intersection o
 ## Graph Represtation
 <p>As we can see with all conditions alike, our dynamic system was able to pass 3193 Vehicles while the current static system could pass only 2356 in 1 hour which means 837 more vehicles
 
- Thus our proposed Traffic managment system with AI improves the performance bt over 35%
+ Thus our proposed Traffic managment system with AI improves the performance by over 35%
  
  our proposed system on and average allow 70 more vehicles to pass every one simulation(5 min) aas compared to the current system this implies a reduction in time complexity of green signal time(Signal is green but no vehiclea passes) as well as the waiting time of the vehicles
 </p>
@@ -119,6 +119,7 @@ https://user-images.githubusercontent.com/83399207/166124009-7ae31ef1-dd3f-4070-
 
 ### Conclusion
 - Using the dynamic model we can effectively reduce the waiting time of the vehicles.
+- Our proposed Traffic managment system with AI improves the performance by over 35% comaparing to Current System.
 - Using the AI model adds an additional functionality to reduce the waiting time of vehicles at their next crossing.
 - Both of these can be implemented using edge computing at the traffic signal itself.
 - It can be implemented with effectively with very little cost.   
