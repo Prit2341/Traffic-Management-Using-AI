@@ -91,7 +91,7 @@ Here we Compare the Total Number of the Vehicles that crosses the intersection o
 
 ![Comparison](https://user-images.githubusercontent.com/83399207/166123300-80854b3e-3da2-446d-87a5-b07aa1595325.png)
 
-## Graph Represtation
+## Graph Representation
 <p>As we can see with all conditions alike, our dynamic system was able to pass 3193 Vehicles while the current static system could pass only 2356 in 1 hour which means 837 more vehicles.
 
  Thus our proposed Traffic managment system with AI improves the performance by over 35%.
