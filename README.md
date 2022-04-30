@@ -57,9 +57,9 @@ Step 5 :- Updating traffic Signal Time</br>
 ## Results
 Here we Compare the Total Number of the Vehicles that crosses the intersection over 1 Simulation(5 Min) in the current system and Our implemented System With The random number of the Vehicles, Over A Total Time of 1 Hour With 12 Simulations of 5 Min each.  
 
-## Installestion
+## Installastion
 
-All user Installestion
+All user Installastion
 ```
 pip install neat-python
 pip install pygame
@@ -72,6 +72,17 @@ pip install matplotlib
 For the Using NEAT Download the config.txt file from the Below Link</br>
 Link :- https://techwithtim.net/wp-content/uploads/2019/08/config-feedforward.txt</br>
 Save the Above file as config.txt 
+
+## Visualization Of the Static Model
+<p>Here we see in our static model that static time is given to each signal i.e. 30sec which leads to wastage of time when enough vehicles are not present in that lane. </p>
+
+https://user-images.githubusercontent.com/83399207/166122672-41c9be4b-f215-4673-9019-69fec0b0b2e3.mp4
+
+## Visualization Of the Dynamic Model
+<p>In our dynamic model, using image detection we determine the traffic density in that lane and provide just enough time for the vehicles to pass which leads to time 
+being saved in each of the lane and in each cycle. </p>
+
+https://user-images.githubusercontent.com/83399207/166122642-451f48f1-028a-4911-adb0-2c7ab9ae892d.mp4
 
 
 
