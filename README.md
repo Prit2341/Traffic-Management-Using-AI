@@ -21,7 +21,7 @@
 * **Automatic Controlling** :- Automatic Traffic Light is Controlled by the timer and electrical Sensors. The Light are getting automatically Getting ON and OFF. 
 * **Electronic Controlling** :- In Electronic Contrilling Method We have To placing some detector or sensors on the traffic area, and this sensors give data about the traffic Density and controll the traffic signals.
 
-## Drew back of the Customary Solution
+## Drawback of the Customary Solution
 * The Manual Controlling System is static and requires a large number of manpower.
 * They May cause a delay in the quick movement of traffic.
 * Electronic Sensors and detector are very expensive in cost, accuracy and coverage are often in conflict. 
