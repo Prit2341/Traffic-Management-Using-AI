@@ -48,7 +48,7 @@ Step 3 :- Send Final Number of the Vehicles to AI</br>
 Step 4 :- AI Scheduling the Green Signal Time according to Traffic Density</br>
 Step 5 :- Updating traffic Signal Time</br>
 
-## Some of the Fectors That Our AI Considered  While Switching Traffic Signals
+## Some of the Factors That Our AI Considered  While Switching Traffic Signals
 * The Processing Time of the Image Recognization System to Calculate traffic Density.
 * Lag each vehicle suffers during start up.
 * Average speed each catagory of Vehicles.
