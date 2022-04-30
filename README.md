@@ -19,7 +19,7 @@
 ## Customary Solutions
 * **Manual Controlling** :- As the Name Suggests That's requires More ManPower to control Traffic and Traffic Police is alloted to each traffic signals and they have to control traffic.
 * **Automatic Controlling** :- Automatic Traffic Light is Controlled by the timer and electrical Sensors. The Light are getting automatically Getting ON and OFF. 
-* **Electroinc Controlling** :- In Electronic Contrilling Method We have To placing some detector or sensors on the traffic area, and this sensors give data about the traffic Density and controll the traffic signals.
+* **Electronic Controlling** :- In Electronic Contrilling Method We have To placing some detector or sensors on the traffic area, and this sensors give data about the traffic Density and controll the traffic signals.
 
 ## Drew back of the Customary Solution
 * The Manual Controlling System is static and requires a large number of manpower.
