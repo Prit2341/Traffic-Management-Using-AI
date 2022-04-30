@@ -7,7 +7,7 @@
 [![Python version](https://img.shields.io/badge/NEAT-0.92-yellow.svg)](https://pypi.org/project/neat-python/)
 [![MATLAB](https://img.shields.io/badge/METLAB-gray.svg)](https://www.mathworks.com/products/matlab.html)
 [![Python version](https://img.shields.io/badge/pygame-2.1.2-blue.svg)](https://pypi.org/project/pygame/)
- <p> Our Traffic Managment System Uses AI to Coordinate traffic such that people have to Spent the least time in traffic our AI coordinate between traffic signals to ensure people don't have signals to ensure people don't have to stop at multiple signals we use image detection to find traffic density and alot time dynamically to each lane</p>
+ <p> Our Traffic Managment System Uses AI to Coordinate traffic such that people have to Spent the least time in traffic. Our AI coordinate between traffic signals to ensure people don't have signals to ensure people don't have to stop at multiple signals we use image detection to find traffic density and alot time dynamically to each lane</p>
 </div>
  
  ## Problem Statment
