@@ -28,11 +28,11 @@ defaultRed = 150
 defaultYellow = 5
 defaultGreen = 20
 defaultMinimum = 10
-defaultMaximum = 60
+defaultMaximum = 40
 
 signals = []
 noOfSignals = 4
-simTime = 120       # change this to change time of simulation
+simTime = 300       # change this to change time of simulation
 timeElapsed = 0
 
 currentGreen = 0   # Indicates which signal is green
@@ -57,7 +57,7 @@ noOfLanes = 2
 # Red signal time at which cars will be detected at a signal
 detectionTime = 5
 
-speeds = {'car':2, 'bus':1.5, 'truck':1.5, 'rickshaw':1.75, 'bike':2.25}  # average speeds of vehicles
+speeds = {'car':4, 'bus':3, 'truck':3, 'rickshaw':4, 'bike':4.5}  # average speeds of vehicles
 
 # Coordinates of start
 x = {'right':[0,0,0], 'down':[755,727,697], 'left':[1400,1400,1400], 'up':[602,627,657]}    
@@ -315,11 +315,10 @@ def setTime():
     greenTime = math.ceil(((noOfCars*carTime) + (noOfRickshaws*rickshawTime) + (noOfBuses*busTime) + (noOfTrucks*truckTime)+ (noOfBikes*bikeTime))/(noOfLanes+1))
     # greenTime = math.ceil((noOfVehicles)/noOfLanes) 
     print('Green Time: ',greenTime)
-    # if(greenTime<defaultMinimum):
-    #     greenTime = defaultMinimum
-    # elif(greenTime>defaultMaximum):
-    #     greenTime = defaultMaximum
-    greenTime = 30
+    if(greenTime<defaultMinimum):
+        greenTime = defaultMinimum
+    elif(greenTime>defaultMaximum):
+        greenTime = defaultMaximum
     # greenTime = random.randint(15,50)
     signals[(currentGreen+1)%(noOfSignals)].green = greenTime
    
@@ -333,7 +332,7 @@ def repeat():
             thread.daemon = True
             thread.start()
             # setTime()
-        time.sleep(0.25)
+        time.sleep(0.84)
     currentYellow = 1   # set yellow signal on
     vehicleCountTexts[currentGreen] = "0"
     # reset stop coordinates of lanes and vehicles 
@@ -344,7 +343,7 @@ def repeat():
     while(signals[currentGreen].yellow>0):  # while the timer of current yellow signal is not zero
         printStatus()
         updateValues()
-        time.sleep(1)
+        time.sleep(0.667)
     currentYellow = 0   # set yellow signal off
     
     # reset all signal times of current signal to default times
@@ -408,13 +407,13 @@ def generateVehicles():
         elif(temp<a[3]):
             direction_number = 3
         Vehicle(lane_number, vehicleTypes[vehicle_type], direction_number, directionNumbers[direction_number], will_turn)
-        time.sleep(0.75)
+        time.sleep(0.5)
 
 def simulationTime():
     global timeElapsed, simTime
     while(True):
         timeElapsed += 1
-        time.sleep(1)
+        time.sleep(0.6667)
         if(timeElapsed==simTime):
             totalVehicles = 0
             print('Lane-wise Vehicle Counts')
@@ -446,7 +445,7 @@ class Main:
     screenSize = (screenWidth, screenHeight)
 
     # Setting background image i.e. image of intersection
-    background = pygame.image.load('mod_int.png')
+    background = pygame.image.load('images/mod_int.png')
 
     screen = pygame.display.set_mode(screenSize)
     pygame.display.set_caption("SIMULATION")
@@ -509,7 +508,5 @@ class Main:
             # vehicle.render(screen)
             vehicle.move()
         pygame.display.update()
-
-Main()
 
   
