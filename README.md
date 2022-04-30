@@ -56,3 +56,22 @@ Step 5 :- Updating traffic Signal Time</br>
 
 ## Results
 Here we Compare the Total Number of the Vehicles that crosses the intersection over 1 Simulation(5 Min) in the current system and Our implemented System With The random number of the Vehicles, Over A Total Time of 1 Hour With 12 Simulations of 5 Min each.  
+
+## Installestion
+
+All user Installestion
+```
+pip install neat-python
+pip install pygame
+```
+for the Graph only
+```
+pip install matplotlib
+```
+
+For the Using NEAT Download the config.txt file from the Below Link</br>
+Link :- https://techwithtim.net/wp-content/uploads/2019/08/config-feedforward.txt</br>
+Save the Above file as config.txt 
+
+
+
