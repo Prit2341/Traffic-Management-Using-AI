@@ -77,7 +77,7 @@ vehicleCountTexts = ["0", "0", "0", "0"]
 # Coordinates of stop lines
 stopLines = {'right': 210, 'down': 220, 'left': 270, 'up': 307}
 defaultStop = {'right': 200, 'down': 210, 'left': 280, 'up': 317}
-stops = {'right': [580,580,580], 'down': [320,320,320], 'left': [810,810,810], 'up': [545,545,545]}
+stops = {'right': [200,200,200], 'down': [320,320,320], 'left': [810,810,810], 'up': [545,545,545]}
 
 mid = {'right': {'x':705, 'y':445}, 'down': {'x':695, 'y':450}, 'left': {'x':695, 'y':425}, 'up': {'x':695, 'y':400}}
 rotationAngle = 3
