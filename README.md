@@ -102,3 +102,16 @@ Here we Compare the Total Number of the Vehicles that crosses the intersection o
 ![graph](https://user-images.githubusercontent.com/83399207/166123319-a8e4a219-3ec0-4d55-9fd1-607147ea2d7e.png)
 
 
+
+
+![1](https://user-images.githubusercontent.com/83399207/166124081-42d7b3b2-f355-465a-9fae-dac8cff24043.jpg)
+![2](https://user-images.githubusercontent.com/83399207/166124084-84de468e-f0c4-471a-b7c8-23db6680f1ab.jpg)
+![3](https://user-images.githubusercontent.com/83399207/166124086-1a5d9c4b-4faf-45a8-a431-0c9cf631c871.jpg)
+![4](https://user-images.githubusercontent.com/83399207/166124091-2e9a53e0-9658-44c7-8f94-518787e48e97.jpg)
+![5](https://user-images.githubusercontent.com/83399207/166124089-18e2785f-6d9e-4422-9167-6e4fd107e662.jpg)
+![6](https://user-images.githubusercontent.com/83399207/166124090-74ff8b01-9fb5-4476-85e0-5d6327c1b0c4.jpg)
+
+## Graphical visualization of AI
+The following video shows how the AI willl coordinate the signals so that the vehicles will not have to stop at every signal if they want to travel on the same straight route.
+
+https://user-images.githubusercontent.com/83399207/166124009-7ae31ef1-dd3f-4070-b77b-f8539402f355.mp4
