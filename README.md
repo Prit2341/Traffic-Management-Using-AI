@@ -54,9 +54,9 @@ Step 5 :- Updating traffic Signal Time</br>
 * Average speed each catagory of Vehicles
 * The No. of Lanes
 
-## Installastion
+## Installation
 
-All user Installastion
+All user Installation
 ```
 pip install neat-python
 pip install pygame
@@ -100,7 +100,8 @@ Here we Compare the Total Number of the Vehicles that crosses the intersection o
 </p>
 
 ![graph](https://user-images.githubusercontent.com/83399207/166123319-a8e4a219-3ec0-4d55-9fd1-607147ea2d7e.png)
-
+## NEAT AI
+### Working of NEAT AI
 
 
 
@@ -115,3 +116,9 @@ Here we Compare the Total Number of the Vehicles that crosses the intersection o
 The following video shows how the AI willl coordinate the signals so that the vehicles will not have to stop at every signal if they want to travel on the same straight route.
 
 https://user-images.githubusercontent.com/83399207/166124009-7ae31ef1-dd3f-4070-b77b-f8539402f355.mp4
+
+### Conclusion
+- Using the dynamic model we can effectively reduce the waiting time of the vehicles.
+- Using the AI model adds an additional functionality to reduce the waiting time of vehicles at their next crossing.
+- Both of these can be implemented using edge computing at the traffic signal itself.
+- It can be implemented with effectively with very little cost.   
