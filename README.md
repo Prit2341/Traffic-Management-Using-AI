@@ -1,6 +1,6 @@
 <div align = "center">
  
-# Traffic-Managment-Using-AI
+# Traffic-Management-Using-AI
   
 [![Python version](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-370/)
 [![Python version](https://img.shields.io/badge/matplotlib-3.5.1-green.svg)](https://pypi.org/project/matplotlib/)
@@ -10,7 +10,7 @@
  <p> Our Traffic Managment System Uses AI to Coordinate traffic such that people have to Spent the least time in traffic. Our AI coordinate between traffic signals to ensure people don't have to stop at multiple signals. We use image detection to find traffic density and alot time dynamically to each lane.</p>
 </div>
  
- ## Problem Statment
+ ## Problem Statement
  * Congestion is mainly due to the intensive use of automobiles, whose ownership has spread massively in Urban Area in recent decades.
  * A lot of time gets wasted in traffic signals as the no. of the vehicles is the less than expected.
  * While driving through consecutive traffic signals we often have to wait at each of the signal.
@@ -21,7 +21,7 @@
 * **Automatic Controlling** :- Automatic Traffic Light is Controlled by the timer and electrical Sensors. The Light are getting automatically Getting ON and OFF. 
 * **Electronic Controlling** :- In Electronic Contrilling Method We have To placing some detector or sensors on the traffic area, and this sensors give data about the traffic Density and controll the traffic signals.
 
-## Drawback of the Customary Solution
+## Drawbacks of the Customary Solution
 * The Manual Controlling System is static and requires a large number of manpower.
 * They May cause a delay in the quick movement of traffic.
 * Electronic Sensors and detector are very expensive in cost, accuracy and coverage are often in conflict. 
@@ -31,7 +31,7 @@
 
 <p>Therefore, we are implementing a system which aims to reduce chance of such scenarios by automatically computing the optimal green signal time based on the current traffic at the signal will ensure that the direction with more traffic is allotted a green signal for longer duration of time as compared to the direction with lesser traffic.</p>
 
-<p>So our dynamic traffic managment system can override the current static system which cause unwanted delays and congestion. also our system will also reduce the time complexity of vehicles pass.</p>
+<p>So our dynamic traffic management system can override the current static system which cause unwanted delays and congestion. also our system will also reduce the time complexity of vehicles pass.</p>
 
 <p>The main objective of our system is to design an AI Based on Edge Computing that can Solve Current Traffic Situation Our System aims to use Image Recognization System and Live video feed from the CCTV Cameras at Traffic Junctions for calculating Real time traffic density and our AI Set the signal Time accordingly.</p>
 
@@ -119,7 +119,7 @@ https://user-images.githubusercontent.com/83399207/166124009-7ae31ef1-dd3f-4070-
 
 ### Conclusion
 - Using the dynamic model we can effectively reduce the waiting time of the vehicles.
-- Our proposed Traffic managment system with AI improves the performance by over 35% comaparing to Current System.
+- Our proposed Traffic management system with AI improves the performance by over 35% comaparing to Current System.
 - Using the AI model adds an additional functionality to reduce the waiting time of vehicles at their next crossing.
 - Both of these can be implemented using edge computing at the traffic signal itself.
 - It can be implemented with effectively with very little cost.   
