@@ -37,7 +37,7 @@
 
 ## Advantages of the Our Traffic Management System
 * Autonomous: There are no need of the Manpower
-* Dynamic System, Mens Traffic light switching according to current traffic density.
+* Dynamic System, Manages Traffic light switching according to current traffic density.
 * Less expensive than other solutions.
 * There are no need to new hardware to be installed.
 
